@@ -4,8 +4,9 @@
   "description": "",
   "main": "dist/server.js",
   "scripts": {
-    "start": "nodemon src/server.ts",
-    "lint": "eslint . --ext .ts"
+    "start": "nodemon dist/server.js",
+    "lint": "eslint . --ext .ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",

@@ -6,7 +6,7 @@ import http from "http";
 import { Server } from "socket.io";
 import chatModel from "../src/models/chat"
 
-const PORT = env.PORT;
+const PORT = env.PORT || 4000;
 
 const server = http.createServer(app);
 
